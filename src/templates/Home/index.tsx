@@ -1,6 +1,6 @@
 import { Component } from "react";
 
-import "./styles.css";
+import "./styles.scss";
 
 import { loadPosts } from "./utils/load-posts";
 import { Button } from "../../components/Button";

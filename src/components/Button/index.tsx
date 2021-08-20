@@ -1,7 +1,7 @@
 
 import { ButtonType } from "./types";
 
-import "./styles.css";
+import "./styles.scss";
 
 export const Button = (props: ButtonType) => {
   return (

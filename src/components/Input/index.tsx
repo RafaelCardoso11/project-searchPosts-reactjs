@@ -1,4 +1,4 @@
-import "./styles.css";
+import "./styles.scss";
 import { InputType } from "./types";
 
 export const Input = (input: InputType) => {

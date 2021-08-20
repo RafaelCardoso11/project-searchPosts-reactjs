@@ -1,6 +1,6 @@
 import { Component } from "react";
 
-import "./styles.css";
+import "./styles.scss";
 
 import { PostCard } from "../PostCard";
 import { Post } from "../types";

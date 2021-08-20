@@ -1,5 +1,6 @@
+@import '../../colors/index.scss';
 .container {
-  background-color: #eee;
+  background-color: $backgroud-color-primary;
   padding: 30px;
 
   .notPostsText {

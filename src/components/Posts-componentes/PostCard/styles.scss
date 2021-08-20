@@ -1,6 +1,8 @@
+@import 'src/colors/index.scss';
+
 .post {
   background-color: #fff;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.26);
+  box-shadow: 0 0 10px $post-boxshadow-color;
   max-width: 500px;
   &:hover {
     transition: 200ms ease-in-out;
