@@ -1,0 +1,18 @@
+.post {
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.26);
+  max-width: 500px;
+  &:hover {
+    transition: 200ms ease-in-out;
+    transform: scale(1.05);
+  }
+  .imgCard {
+    max-width: 100%;
+  }
+  .post-content {
+    padding: 30px;
+    .title-post{
+      margin-bottom: 20px;
+    }
+  }
+}

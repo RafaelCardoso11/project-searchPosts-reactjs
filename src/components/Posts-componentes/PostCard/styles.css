@@ -1,0 +1,26 @@
+.post {
+  background-color: #fff;
+  -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.26);
+          box-shadow: 0 0 10px rgba(0, 0, 0, 0.26);
+  max-width: 500px;
+}
+
+.post:hover {
+  -webkit-transition: 200ms ease-in-out;
+  transition: 200ms ease-in-out;
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
+}
+
+.post .imgCard {
+  max-width: 100%;
+}
+
+.post .post-content {
+  padding: 30px;
+}
+
+.post .post-content .title-post {
+  margin-bottom: 20px;
+}
+/*# sourceMappingURL=styles.css.map */

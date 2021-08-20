@@ -1,0 +1,18 @@
+.button {
+  width: 100%;
+  height: 50px;
+  background-color: blueviolet;
+  color: white;
+  margin-top: 30px;
+  font-size: 1.2rem;
+  cursor: pointer;
+  &:hover {
+    transition: 200ms;
+    background-color: rgb(113, 41, 180);
+  }
+  &:disabled {
+    background-color: rgba(255, 255, 255, 0.589);
+    color: black;
+    cursor: not-allowed;
+  }
+}
