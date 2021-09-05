@@ -1,7 +1,7 @@
 @import 'src/colors/index.scss';
 
 .post {
-  background-color: #fff;
+  background-color: $backgroud-post;
   box-shadow: 0 0 10px $post-boxshadow-color;
   max-width: 500px;
   &:hover {

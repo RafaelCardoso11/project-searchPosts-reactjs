@@ -3,4 +3,5 @@ export interface Post {
   title: string;
   cover: string;
   body: string;
+  alt?: string;
 }
