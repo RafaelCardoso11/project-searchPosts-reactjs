@@ -1,7 +1,7 @@
-import "./styles.scss";
-import { InputType } from "./types";
+import './styles.scss';
+import { InputType } from './types';
 
-export const Input = (input: InputType) => {
+export const Input = (input: InputType): JSX.Element => {
   return (
     <input
       type={input.type}

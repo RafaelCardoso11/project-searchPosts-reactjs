@@ -1,8 +1,8 @@
-import { Post } from "../../../components/Posts-componentes/types";
+import { Post } from '../../../components/Posts-componentes/types';
 
-export const loadPosts = async () => {
-  const postsResponse = fetch("https://jsonplaceholder.typicode.com/posts");
-  const photosResponse = fetch("https://jsonplaceholder.typicode.com/photos");
+export const loadPosts = async (): Promise<[]> => {
+  const postsResponse = fetch('https://jsonplaceholder.typicode.com/posts');
+  const photosResponse = fetch('https://jsonplaceholder.typicode.com/photos');
   const [posts, photos] = await Promise.all([postsResponse, photosResponse]);
   const postsJson = await posts.json();
   const photosJson = await photos.json();
@@ -10,4 +10,4 @@ export const loadPosts = async () => {
     return { ...post, cover: photosJson[index].url };
   });
   return photosAndPosts;
-}
+};
